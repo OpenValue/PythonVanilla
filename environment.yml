@@ -1,0 +1,14 @@
+name: vanilla-env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - pip
+  - python=3.7.6
+  - setuptools
+  - autopep8
+  - ipykernel
+  - pyyaml
+  - pip:
+    - pandas

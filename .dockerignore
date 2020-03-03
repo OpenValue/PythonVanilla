@@ -1,0 +1,9 @@
+.conda/
+.idea/
+*.pyc
+setup.py
+format.sh
+install-conda-environment.sh
+*.md
+.gitignore
+.dockerignore

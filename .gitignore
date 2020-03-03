@@ -1,0 +1,6 @@
+.conda/
+.idea/
+*.pyc
+build/
+dist/
+*egg-info
