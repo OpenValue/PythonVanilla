@@ -16,7 +16,7 @@ def main():
 
     # DO YOUR STUFFs
     my_class = Class1(conf["is_reversed"])
-    my_class.say_hello("Fanch")
+    print(my_class.say_hello("Fanch"))
 
 
 if __name__ == '__main__':

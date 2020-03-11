@@ -1,5 +1,6 @@
 .conda/
 .idea/
+.pytest_cache/
 *.pyc
 build/
 dist/
