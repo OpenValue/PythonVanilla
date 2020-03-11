@@ -36,7 +36,16 @@ The configuration file that will be used is based on ENVIRONMENT variable:
 ./format.sh
 ```
 
-## Run
+## Run tests
+We use pytest to run tests. Pytest expects our tests to be located in files whose 
+names begin with `test_` or end with `_test.py`
+
+To run tests, go to project root and run:
+```bash
+pytest
+```
+
+## Run code
 Set environment variables to relevant values and run:
 ```bash
 ./entrypoint.sh
